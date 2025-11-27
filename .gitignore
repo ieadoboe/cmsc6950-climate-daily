@@ -1,1 +1,14 @@
 .DS_Store
+.todo
+
+# virtual env
+bin/
+lib/
+venv/
+.venv/
+env/
+*.cfg
+
+share/
+
+__pycache__
