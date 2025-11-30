@@ -17,4 +17,13 @@ def calculate_dtr(t_min, t_max):
         float, array or Series
             Diurnal Temperature Range
     """
-    return t_max - t_min
+    # Error checking
+    if hasattr(t_max, "__len__"):  # for arrays
+        if (t_max < t_min).any():
+            raise ValueError("t_min must be <= t_max for all entries")
+    else:  # for scalars
+        if (t_max < t_min):
+            raise ValueError("t_min must be <= t_max")
+
+    dtr = t_max - t_min
+    return dtr
