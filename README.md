@@ -66,7 +66,6 @@ from src.common import mpl_apply
 
 ```bash
 python3 scripts/prepare_data.py
-
 ```
 
 **Output:** `data/dtr_dataset.csv` (processed data with DTR calculations)
@@ -83,10 +82,7 @@ python3 scripts/plot_seasonal_combined.py
 python3 scripts/plot_dtr_extremes_timeseries.py
 python3 scripts/plot_extremes_annual_counts.py
 python3 scripts/plot_extremes_mann_kendall.py
-
 ```
-
----
 
 ## Statistical Analysis
 
@@ -102,8 +98,6 @@ python3 scripts/analyze_data.py
 - Annual temperature trend
 - Annual DTR trend
 - Seasonal DTR statistics
-
----
 
 ## Data Source
 
@@ -121,8 +115,6 @@ PS: Station coordinates and names available in raw data file
 - `MAX_TEMPERATURE` (°C)
 - `MEAN_TEMPERATURE` (°C)
 - Additional climate variables (precipitation, snow, etc.)
-
----
 
 ## Methods Summary
 
@@ -146,8 +138,6 @@ PS: Station coordinates and names available in raw data file
 - **Extreme events:** No significant trends in high or low extremes
 - **Seasonal pattern:** 3.6°C amplitude; spring DTR > fall DTR
 
----
-
 ## Author
 
 Isaac Adoboe
@@ -155,8 +145,6 @@ Isaac Adoboe
 Memorial University of Newfoundland
 
 2025
-
----
 
 ## License
 
