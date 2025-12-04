@@ -13,14 +13,14 @@ MPL_CONFIG = {
     'savefig.dpi': 300,  # Publication quality
     'figure.dpi': 150,   # Screen display
     'font.family': 'serif',  # Font family
-    'font.size': 11,  # Global font size
+    'font.size': 12,  # Global font size
     'font.serif': ['Computer Modern'],
     'text.usetex': True,  # Enable LaTeX rendering
-    'axes.labelsize': 10,  # Font size for axis labels
-    'axes.titlesize': 11,  # Font size for subplot titles
-    'xtick.labelsize': 9,  # Legend text size
-    'ytick.labelsize': 9,  # Legend text size
-    'legend.fontsize': 10,
+    'axes.labelsize': 12,  # Font size for axis labels
+    'axes.titlesize': 14,  # Font size for subplot titles
+    'xtick.labelsize': 10,  # Legend text size
+    'ytick.labelsize': 10,  # Legend text size
+    'legend.fontsize': 12,
     'lines.linewidth': 2,
     'axes.linewidth': 0.8,
     'savefig.bbox': 'tight',
