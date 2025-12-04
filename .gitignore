@@ -1,7 +1,11 @@
+# macos
 .DS_Store
-.todo
+**/.DS_Store
 
-# virtual env
+# todo files
+*.todo 
+
+# virtual env 
 bin/
 lib/
 venv/
@@ -9,6 +13,12 @@ venv/
 env/
 *.cfg
 
-share/
+# personal folders
+presentation/
 
+# python and misc
+.pytest_cache
 __pycache__
+climate_dtr.egg-info
+share/
+include/
